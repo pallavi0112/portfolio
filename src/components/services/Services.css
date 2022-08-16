@@ -1,0 +1,38 @@
+.services-wrapper{
+    padding:0 3rem;
+    display: flex;
+    margin:4rem 0 5rem 0;
+    height:90vh;
+}
+.service{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap:0.3rem;
+}
+.service>:nth-child(1){
+    font-size:2.5rem;
+    font-weight:bold;
+    color:var(--black);
+}
+.service>:nth-child(2){
+    font-size:2.5rem;
+    font-weight:bold;
+    color:var(--orange);
+}
+.service>:nth-child(3){
+    font-size:16px;
+    font-weight:normal;
+    color:var(--gray);
+    margin-top:1rem;
+}
+.service-button{
+    width:8rem;
+    margin-top:1rem;
+}
+.cards{
+    position:relative;
+}
+.cards>*{
+    position:absolute;
+}
